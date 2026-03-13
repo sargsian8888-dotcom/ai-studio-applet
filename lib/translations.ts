@@ -1,0 +1,177 @@
+export const translations = {
+  en: {
+    // General
+    loading: 'Loading...',
+    save: 'Save Changes',
+    cancel: 'Cancel',
+    edit: 'Edit',
+    delete: 'Delete',
+    add: 'Add',
+    signOut: 'Sign Out',
+    settings: 'Settings',
+    language: 'Language',
+    theme: 'Theme',
+    light: 'Light',
+    dark: 'Dark',
+    privacyPolicy: 'Privacy Policy',
+    termsOfService: 'Terms of Service',
+    
+    // Candidate Portal
+    feed: 'Feed',
+    matches: 'Matches',
+    messages: 'Messages',
+    profile: 'Profile',
+    youAreAllCaughtUp: "You're all caught up.",
+    checkBackLater: 'Check back later for more opportunities tailored to your vibe.',
+    refreshFeed: 'Refresh Feed',
+    yourSuccessfulConnections: 'Your successful connections will appear here.',
+    chatWithMatches: 'Chat with your matches here.',
+    manageSettings: 'Manage your settings and preferences.',
+    
+    // Candidate Profile
+    personalInfo: 'Personal Information',
+    fullName: 'Full Name',
+    headline: 'Headline',
+    bio: 'Bio',
+    education: 'Education',
+    addEducation: 'Add Education',
+    school: 'School/University',
+    degree: 'Degree',
+    fieldOfStudy: 'Field of Study',
+    graduationYear: 'Graduation Year',
+    cvResume: 'CV / Resume',
+    uploadCV: 'Upload CV (PDF)',
+    
+    // Employer Portal
+    dashboard: 'Dashboard',
+    candidates: 'Candidates',
+    postings: 'Postings',
+    employerPortal: 'Employer Portal',
+    manageJobsAndCandidates: 'Manage your jobs and candidates',
+    overview: 'Overview',
+    activeJobs: 'Active Jobs',
+    totalCandidates: 'Total Candidates',
+    yourPostings: 'Your Postings',
+    postJob: 'Post Job',
+    noActiveJobs: 'No active jobs found. Post your first role.',
+    pendingCandidates: 'Pending Candidates',
+    noCandidates: 'No candidates have applied yet.',
+    vibeMatch: 'Vibe Match',
+    questScore: 'Quest Score',
+    pass: 'Pass',
+    connect: 'Connect',
+    
+    // Employer Postings
+    editJob: 'Edit Job',
+    addStory: 'Add Story',
+    jobTitle: 'Job Title',
+    location: 'Location',
+    salaryRange: 'Salary Range',
+    description: 'Description',
+    requirements: 'Requirements',
+    photos: 'Photos',
+    uploadPhotos: 'Upload Photos',
+    
+    // Employer Profile
+    companyInfo: 'Company Information',
+    companyName: 'Company Name',
+    industry: 'Industry',
+    companySize: 'Company Size',
+    website: 'Website',
+    address: 'Address',
+    yandexMap: 'Yandex Map Location',
+    
+    // Stories
+    companyStories: 'Company Stories',
+    noStories: 'No stories available right now.',
+  },
+  am: {
+    // General
+    loading: 'Բեռնվում է...',
+    save: 'Պահպանել փոփոխությունները',
+    cancel: 'Չեղարկել',
+    edit: 'Խմբագրել',
+    delete: 'Ջնջել',
+    add: 'Ավելացնել',
+    signOut: 'Դուրս գալ',
+    settings: 'Կարգավորումներ',
+    language: 'Լեզու',
+    theme: 'Թեմա',
+    light: 'Լուսավոր',
+    dark: 'Մութ',
+    privacyPolicy: 'Գաղտնիության քաղաքականություն',
+    termsOfService: 'Ծառայությունների մատուցման պայմաններ',
+    
+    // Candidate Portal
+    feed: 'Հոսք',
+    matches: 'Համընկնումներ',
+    messages: 'Նամակներ',
+    profile: 'Անձնական էջ',
+    youAreAllCaughtUp: "Դուք դիտել եք ամեն ինչ:",
+    checkBackLater: 'Վերադարձեք ավելի ուշ՝ նոր հնարավորությունների համար:',
+    refreshFeed: 'Թարմացնել հոսքը',
+    yourSuccessfulConnections: 'Ձեր հաջողված կապերը կհայտնվեն այստեղ:',
+    chatWithMatches: 'Շփվեք ձեր համընկնումների հետ այստեղ:',
+    manageSettings: 'Կառավարեք ձեր կարգավորումները և նախընտրությունները:',
+    
+    // Candidate Profile
+    personalInfo: 'Անձնական Տվյալներ',
+    fullName: 'Անուն Ազգանուն',
+    headline: 'Կարգախոս',
+    bio: 'Կենսագրություն',
+    education: 'Կրթություն',
+    addEducation: 'Ավելացնել կրթություն',
+    school: 'Դպրոց/Համալսարան',
+    degree: 'Աստիճան',
+    fieldOfStudy: 'Մասնագիտություն',
+    graduationYear: 'Ավարտելու տարեթիվ',
+    cvResume: 'Ինքնակենսագրական (CV)',
+    uploadCV: 'Վերբեռնել CV (PDF)',
+    
+    // Employer Portal
+    dashboard: 'Վահանակ',
+    candidates: 'Թեկնածուներ',
+    postings: 'Հայտարարություններ',
+    employerPortal: 'Գործատուի Պորտալ',
+    manageJobsAndCandidates: 'Կառավարեք ձեր աշխատատեղերը և թեկնածուներին',
+    overview: 'Ակնարկ',
+    activeJobs: 'Ակտիվ աշխատատեղեր',
+    totalCandidates: 'Ընդհանուր թեկնածուներ',
+    yourPostings: 'Ձեր հայտարարությունները',
+    postJob: 'Տեղադրել աշխատանք',
+    noActiveJobs: 'Ակտիվ աշխատատեղեր չեն գտնվել: Տեղադրեք ձեր առաջին հայտարարությունը:',
+    pendingCandidates: 'Սպասող թեկնածուներ',
+    noCandidates: 'Դեռևս թեկնածուներ չկան:',
+    vibeMatch: 'Համապատասխանություն',
+    questScore: 'Քվեստի արդյունք',
+    pass: 'Բաց թողնել',
+    connect: 'Կապվել',
+    
+    // Employer Postings
+    editJob: 'Խմբագրել հայտարարությունը',
+    addStory: 'Ավելացնել Սթորի',
+    jobTitle: 'Աշխատանքի անվանում',
+    location: 'Գտնվելու վայր',
+    salaryRange: 'Աշխատավարձի չափ',
+    description: 'Նկարագրություն',
+    requirements: 'Պահանջներ',
+    photos: 'Նկարներ',
+    uploadPhotos: 'Վերբեռնել նկարներ',
+    
+    // Employer Profile
+    companyInfo: 'Ընկերության Տվյալներ',
+    companyName: 'Ընկերության անվանում',
+    industry: 'Ոլորտ',
+    companySize: 'Ընկերության չափ',
+    website: 'Կայք',
+    address: 'Հասցե',
+    yandexMap: 'Yandex Քարտեզի տեղադրություն',
+    
+    // Stories
+    companyStories: 'Ընկերությունների Սթորիները',
+    noStories: 'Այս պահին սթորիներ չկան:',
+  }
+};
+
+export type Language = 'en' | 'am';
+export type TranslationKey = keyof typeof translations.en;
